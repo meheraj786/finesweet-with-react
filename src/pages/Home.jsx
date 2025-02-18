@@ -13,6 +13,13 @@ import work1 from "../pages/images/Card.png"
 import work2 from "../pages/images/Rectangle 1313.png"
 import work3 from "../pages/images/Card (1).png"
 import goldArrow from "../pages/images/Arrow 2 (1).png"
+import icon1 from "../pages/images/Icon (8).png"
+import icon2 from "../pages/images/Icon (9).png"
+import icon3 from "../pages/images/Icon (10).png"
+import icon4 from "../pages/images/Icon (11).png"
+import icon5 from "../pages/images/Icon (12).png"
+import icon6 from "../pages/images/Icon (13).png"
+
 
 
 
@@ -175,7 +182,7 @@ const Home = () => {
           </div>
           <div className="row row-gap-4">
             <div className="col-lg-4 mx-auto item">
-              <img src="images/Icon (8).png" alt="" />
+              <img src={icon1} alt="" />
               <h3>User Client First</h3>
               <p>
                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit
@@ -184,7 +191,7 @@ const Home = () => {
               </p>
             </div>
             <div className="col-lg-4 mx-auto item">
-              <img src="images/Icon (9).png" alt="" />
+              <img src={icon2} alt="" />
               <h3>Two Free Revision Round</h3>
               <p>
                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit
@@ -193,7 +200,7 @@ const Home = () => {
               </p>
             </div>
             <div className="col-lg-4 mx-auto item">
-              <img src="images/Icon (10).png" alt="" />
+              <img src={icon3} alt="" />
               <h3>Template Customization</h3>
               <p>
                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit
@@ -202,7 +209,7 @@ const Home = () => {
               </p>
             </div>
             <div className="col-lg-4 mx-auto item">
-              <img src="images/Icon (11).png" alt="" />
+              <img src={icon4} alt="" />
               <h3>24/7 Support</h3>
               <p>
                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit
@@ -211,7 +218,7 @@ const Home = () => {
               </p>
             </div>
             <div className="col-lg-4 mx-auto item">
-              <img src="images/Icon (12).png" alt="" />
+              <img src={icon5} alt="" />
               <h3>Quick Delivery</h3>
               <p>
                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit
@@ -220,7 +227,7 @@ const Home = () => {
               </p>
             </div>
             <div className="col-lg-4 mx-auto item">
-              <img src="images/Icon (13).png" alt="" />
+              <img src={icon6} alt="" />
               <h3>Hands-on approach</h3>
               <p>
                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit
