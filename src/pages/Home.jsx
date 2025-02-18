@@ -1,6 +1,19 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import "../css"
+import "../css/index.css"
+import banner from "../pages/images/Illustration.svg"
+import arrow from "../pages/images/Arrow 1.png"
+import point1 from "../pages/images/pointer 1.svg"
+import blueArrow from "../pages/images/Arrow 2.png"
+import point2 from "../pages/images/pointer 1.png"
+import point3 from "../pages/images/pointer 1 (1).png"
+import point4 from "../pages/images/pointer 1 (2).png"
+import blackArrow from "../pages/images/Arrow 1 (1).png"
+import work1 from "../pages/images/Card.png"
+import work2 from "../pages/images/Rectangle 1313.png"
+import work3 from "../pages/images/Card (1).png"
+import goldArrow from "../pages/images/Arrow 2 (1).png"
+
 
 const Home = () => {
   return (
@@ -22,13 +35,13 @@ const Home = () => {
                 <NavLink to="/pricing">
                   View Pricing
                   <span>
-                    <img src="images/Arrow 1.png" alt="#arrow" />
+                    <img src={arrow} alt="#arrow" />
                   </span>
                 </NavLink>
               </div>
             </div>
             <div className="col-lg-7 d-flex justify-content-end m-auto">
-              <img src="images/Illustration.svg" alt="" />
+              <img src={banner} alt="" />
             </div>
           </div>
         </div>
@@ -48,13 +61,13 @@ const Home = () => {
               <NavLink to="/contact-us">
                 Get in touch with us
                 <span>
-                  <img src="images/Arrow 2.png" alt="" />
+                  <img src={blueArrow} alt="" />
                 </span>
               </NavLink>
             </div>
             <div className="col-lg-7 offset-lg-1 right d-flex flex-wrap">
               <div className="item">
-                <img src="images/pointer 1.svg" alt="" />
+                <img src={point1} alt="" />
                 <h3>Strategy</h3>
                 <p>
                   Euismod faucibus turpis eu gravida mi. Pellentesque et velit
@@ -62,7 +75,7 @@ const Home = () => {
                 </p>
               </div>
               <div className="item">
-                <img src="images/pointer 1.png" alt="" />
+                <img src={point2} alt="" />
                 <h3>Wireframing</h3>
                 <p>
                   Euismod faucibus turpis eu gravida mi. Pellentesque et velit
@@ -70,7 +83,7 @@ const Home = () => {
                 </p>
               </div>
               <div className="item">
-                <img src="images/pointer 1 (1).png" alt="" />
+                <img src={point3} alt="" />
                 <h3>Design</h3>
                 <p>
                   Euismod faucibus turpis eu gravida mi. Pellentesque et velit
@@ -78,7 +91,7 @@ const Home = () => {
                 </p>
               </div>
               <div className="item">
-                <img src="images/pointer 1 (2).png" alt="" />
+                <img src={point4} alt="" />
                 <h3>Development</h3>
                 <p>
                   Euismod faucibus turpis eu gravida mi. Pellentesque et velit
@@ -99,13 +112,13 @@ const Home = () => {
             <NavLink to="/work">
               View More
               <span>
-                <img src="images/Arrow 1 (1).png" alt="" />
+                <img src={blackArrow} alt="" />
               </span>
             </NavLink>
           </div>
           <div className="row">
             <div className="col-xl-8 left">
-              <img src="images/Card.png" alt="" />
+              <img src={work1} alt="" />
               <div className="pop">
                 <h3>Workhub office Webflow Webflow Design</h3>
                 <p>
@@ -115,32 +128,32 @@ const Home = () => {
                 <NavLink to="/read-case-studies">
                   View project
                   <span>
-                    <img src="images/Arrow 2 (1).png" alt="" />
+                    <img src={goldArrow}  alt="" />
                   </span>
                 </NavLink>
               </div>
             </div>
             <div className="col-xl-4 d-flex flex-column justify-content-between align-items-center right">
               <div className="img2">
-                <img src="images/Rectangle 1313.png" alt="" />
+                <img src={work2} alt="" />
                 <div className="pop2">
                   <h3>Unisaas Website Design</h3>
                   <NavLink to="/read-case-studies">
                     View project
                     <span>
-                      <img src="images/Arrow 2 (1).png" alt="" />
+                      <img src={goldArrow}  alt="" />
                     </span>
                   </NavLink>
                 </div>
               </div>
               <div className="img2">
-                <img src="images/Card (1).png" alt="" />
+                <img src={work3} alt="" />
                 <div className="pop2">
                   <h3>Unisaas Website Design</h3>
                   <NavLink to="/read-case-studies">
                     View project
                     <span>
-                      <img src="images/Arrow 2 (1).png" alt="" />
+                      <img src={goldArrow} alt="" />
                     </span>
                   </NavLink>
                 </div>
