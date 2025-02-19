@@ -403,7 +403,7 @@ margin-bottom: 16px;
 }
 
 #contact .left {
-  background-image: url(../images/woman-writing-on-paper-3228878.png);
+  background-image: url(../pages/images/woman-writing-on-paper-3228878.png);
   background-size: cover;
   background-position: center;
   padding: 96px;
@@ -529,6 +529,7 @@ margin-bottom: 16px;
   opacity: 70%;
   width: 405px;
 }
+
 
 #footer{
   padding-top: 96px;

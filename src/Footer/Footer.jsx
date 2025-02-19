@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import '../css/index.css'
+import logo from "../pages/images/Logo .png"
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-5">
-            <img src="images/Logo.png" alt="#logo" />
+            <img src={logo} alt="#logo" />
             <p>
               We are always open to discuss your project and improve your online
               presence.
