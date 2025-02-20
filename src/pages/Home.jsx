@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import "../css/index.css"
+// import "../css/index.css"
 import banner from "../pages/images/Illustration.svg"
 import arrow from "../pages/images/Arrow 1.png"
 import point1 from "../pages/images/pointer 1.svg"
@@ -72,7 +72,7 @@ const Home = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
               </p>
-              <NavLink to="/contact-us">
+              <NavLink to="/contact">
                 Get in touch with us
                 <span>
                   <img src={blueArrow} alt="" />
@@ -338,7 +338,7 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-4 left">
               <h2>Frequently asked questions</h2>
-              <NavLink to="/contact-us">Contact us for more info</NavLink>
+              <NavLink to="/contact">Contact us for more info</NavLink>
             </div>
             <div className="col-lg-8 right">
               <div className="accordion" id="accordionExample">
@@ -495,7 +495,7 @@ const Home = () => {
               <input type="email" placeholder="Email" />
               <input type="text" placeholder="Paste your Figma design URL" />
               <button>Send an Inquiry</button>
-              <NavLink to="/contact-us">
+              <NavLink to="/contact">
                 Get in touch with us
                 <span>
                   <img src="images/Arrow 1.png" alt="" />
@@ -526,7 +526,7 @@ const Home = () => {
                 See how pivoting to Webflow changed one person’s sales strategy
                 and allowed him to attract
               </p>
-              <NavLink to="#">
+              <NavLink to="/read-blog">
                 Read More
                 <span>
                   <img src={blackArrow} alt="" />
@@ -549,7 +549,7 @@ const Home = () => {
                 See how pivoting to Webflow changed one person’s sales strategy
                 and allowed him to attract
               </p>
-              <NavLink to="#">
+              <NavLink to="/read-blog">
                 Read More
                 <span>
                   <img src={blackArrow} alt="" />
@@ -569,7 +569,7 @@ const Home = () => {
                 See how pivoting to Webflow changed one person’s sales strategy
                 and allowed him to attract
               </p>
-              <NavLink className="text-black" to="#">
+              <NavLink className="text-black" to="/read-blog">
                 Read More
                 <span>
                   <img src={blackArrow} alt="" />

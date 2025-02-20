@@ -1,7 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/index.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+// import './css/index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout from './Layout.jsx'
 import Home from './pages/Home.jsx'
@@ -14,6 +16,7 @@ import Contact from './pages/Contact.jsx';
 import Work from './pages/Work.jsx';
 import ReadBlog from './pages/Read-Blog.jsx';
 import ReadCaseStudies from './pages/ReadCaseStudies.jsx';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 
