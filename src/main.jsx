@@ -11,6 +11,9 @@ import Pricing from './pages/Pricing.jsx';
 import Faq from './pages/Faq.jsx';
 import Blog from './pages/Blog.jsx';
 import Contact from './pages/Contact.jsx';
+import Work from './pages/Work.jsx';
+import ReadBlog from './pages/Read-Blog.jsx';
+import ReadCaseStudies from './pages/ReadCaseStudies.jsx';
 
 
 
@@ -38,6 +41,15 @@ const router = createBrowserRouter([{
   },{
     path: '/contact',
     element: <Contact/>
+  },{
+    path: '/work',
+    element: <Work/>
+  },{
+    path: '/read-blog',
+    element: <ReadBlog/>
+  },{
+    path: '/read-case-studies',
+    element: <ReadCaseStudies/>
   }
 ]
 }])
