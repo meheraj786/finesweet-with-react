@@ -31,7 +31,7 @@ const Header = () => {
               <NavLink className="nav-link" activeClassName="active" to="/about">About Us</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" activeClassName="active" to="/features">Features</NavLink>
+              <NavLink className="nav-link" activeClassName="active" to="/feature">Features</NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" activeClassName="active" to="/pricing">Pricing</NavLink>
@@ -45,7 +45,7 @@ const Header = () => {
           </ul>
           <div>
             <button className="btn" type="submit">
-              <NavLink className="nav-link" activeClassName="active" to="/contact-us">Contact us</NavLink>
+              <NavLink className="nav-link" activeClassName="active" to="/contact">Contact us</NavLink>
             </button>
           </div>
         </div>
