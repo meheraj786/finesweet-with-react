@@ -18,27 +18,27 @@ a{
 }
 
 
-#hero{
-  background: #1C1E53;
+#heroSection{
+  background: #1C1E53 ;
   color: white;
   padding: 126px 0px;
 
 }
 
-#hero .col-lg-5 h1{
+#heroSection .col-lg-5 h1{
   font-size: 54px;
   font-weight: 600;
   line-height: 74px;
   max-width: 582px;
 }
-#hero .col-lg-5 p{
+#heroSection .col-lg-5 p{
   line-height: 28px;
   margin-top: 24px;
   margin-bottom: 48px;
   max-width: 562px;
 }
 
-#hero button{
+#heroSection button{
   background: #FCD980;
   color: #1B1C2B;
   padding: 16px 56px;
@@ -46,12 +46,12 @@ a{
   border: 1px solid #FCD980;
   font-weight: 600;
 }
-#hero button a{
+#heroSection button a{
   margin: 0 auto;
   color: #1B1C2B;
   font-weight: 600;
 }
-#hero button:hover{
+#heroSection button:hover{
   background: transparent;
   color: white;
   padding: 16px 56px;
@@ -59,7 +59,7 @@ a{
   border: 1px solid #FCD980;
   font-weight: 600;
 }
-#hero button:hover a{
+#heroSection button:hover a{
   color: white;
 }
 

@@ -18,47 +18,19 @@ a {
   text-decoration: none;
 }
 
-nav {
-  background: #1c1e53;
-  padding: 16px 0px !important;
-}
-ul .nav-link {
-  color: #f4f6fc;
-  margin-right: 32px;
-}
-
-ul .nav-link:hover {
-  color: #fcd980;
-}
-.active {
-  color: #ffff !important;
-  font-weight: 600;
-}
-
-nav .btn {
-  color: white;
-  padding: 16px 48px;
-  border-radius: 41px;
-  border: 2px solid #f4f6fc;
-  margin-left: 48px;
-}
-nav .btn:hover {
-  color: #282938;
-  background: #fcd980;
-  border: 2px solid #fcd980;
-}
 
 #hero {
   padding: 128px 0;
+  background: white !important;
 }
 
-#hero p {
+#hero .left p {
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
   color: #282938;
 }
-#hero h1 {
+#hero .left h1{
   font-size: 54px;
   font-weight: 600;
   line-height: 74px;
@@ -66,7 +38,8 @@ nav .btn:hover {
   margin-top: 8px;
   margin-bottom: 31px;
 }
-#hero .p {
+
+#hero .p{
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -78,9 +51,11 @@ nav .btn:hover {
 #goal .container .row {
   padding: 80px 0;
 }
+
 #goal .container {
   background: #f4f5f5;
 }
+
 #goal .left p {
   color: #282938;
   font-size: 16px;
@@ -102,6 +77,7 @@ nav .btn:hover {
   font-weight: normal;
   opacity: 70%;
 }
+
 #goal .right h2 {
   color: #282938;
   font-size: 36px;
@@ -109,9 +85,11 @@ nav .btn:hover {
   line-height: 56px;
   margin-bottom: 16px;
 }
+
 #goal .right p {
   width: 515px;
 }
+
 #goal .right .p {
   color: #282938;
   font-size: 16px;
@@ -122,6 +100,7 @@ nav .btn:hover {
 #process {
   padding: 128px 0;
 }
+
 #process h2 {
   color: #282938;
   font-weight: 600;
@@ -193,7 +172,7 @@ nav .btn:hover {
   display: block;
   color: #fcd980;
 }
-#benifits{
+#benifits {
   padding: 128px 0;
   padding-bottom: 48px;
   color: #282938;
@@ -210,7 +189,7 @@ nav .btn:hover {
 #benifits .item {
   max-width: 415px;
   padding: 48px;
-  background: #F4F6FC;
+  background: #f4f6fc;
   box-shadow: 0px 4px 4px 0px hwb(0 0% 100% / 0.253);
   cursor: pointer;
 }
@@ -228,27 +207,27 @@ nav .btn:hover {
   max-width: 324px;
 }
 
-#companies{
+#companies {
   padding-bottom: 128px;
 }
-#companies h2{
+#companies h2 {
   color: #282938;
   font-size: 38px;
   line-height: 56px;
   font-weight: 600;
   margin-bottom: 0;
 }
-#companies p{
+#companies p {
   color: #282938;
   font-size: 16px;
   line-height: 28px;
   opacity: 70%;
 }
-#team{
-  background: #F4F6FC;
+#team {
+  background: #f4f6fc;
   padding: 128px 0;
 }
-#team h2{
+#team h2 {
   color: #282938;
   font-size: 48px;
   line-height: 64px;
@@ -256,27 +235,27 @@ nav .btn:hover {
   margin-bottom: 48px;
 }
 
-#team .col-lg-2{
+#team .col-lg-2 {
   background: #ffff;
   width: 296px;
   padding-top: 48px;
   padding-bottom: 32px;
   cursor: pointer;
 }
-#team h3{
+#team h3 {
   margin-top: 30px;
   margin-bottom: 2px;
-  color: #1D2130;
+  color: #1d2130;
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
 }
-#team .img{
+#team .img {
   position: relative;
   width: 168px;
   margin: 0 auto;
 }
-#team .pop{
+#team .pop {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -287,9 +266,9 @@ nav .btn:hover {
   width: 0%;
   height: 0%;
   display: none;
-  background: linear-gradient(0deg, #5239FA, #ffffff00);
+  background: linear-gradient(0deg, #5239fa, #ffffff00);
 }
-#team .col-lg-2:hover .pop{
+#team .col-lg-2:hover .pop {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -299,71 +278,12 @@ nav .btn:hover {
   padding-bottom: 28px;
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, #5239FA, #ffffff00);
+  background: linear-gradient(0deg, #5239fa, #ffffff00);
 }
-#team .pop i{
+#team .pop i {
   color: white;
   margin-left: 6px;
   margin-right: 6px;
   width: 13px;
 }
 
-#footer {
-  padding-top: 96px;
-  background: #1c1e53;
-  color: white;
-}
-#footer .col-lg-5 p {
-  margin-top: 24px;
-}
-
-#footer .contact {
-  background: #fcd980;
-  color: #1b1c2b;
-  padding: 16px 37px;
-  margin-top: 86px;
-}
-#footer .contact .mail {
-  margin-right: 29px;
-}
-#footer .contact h3 {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 32px;
-  color: #282938;
-}
-#footer .contact p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
-  color: #282938;
-  opacity: 80%;
-  margin-top: 0px;
-}
-
-#footer .right h2 {
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 64px;
-}
-#footer .right p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
-  opacity: 80%;
-  margin-top: 14px;
-  margin-bottom: 28px;
-  width: 399px;
-}
-#footer .right i {
-  margin-right: 27px;
-}
-
-#footer .footer-bottom {
-  background: white;
-  color: #282938;
-  padding: 32px 0;
-}
-#footer .footer-bottom ul li {
-  margin-right: 32px;
-}
